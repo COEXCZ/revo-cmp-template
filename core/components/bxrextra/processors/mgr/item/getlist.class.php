@@ -5,7 +5,7 @@
  * @package bxrextra
  * @subpackage processors
  */
-class BxrExtraGetListProcessor extends modObjectGetListProcessor {
+class BxrExtraItemGetListProcessor extends modObjectGetListProcessor {
     public $classKey = 'BxrExtraItem';
     public $languageTopics = array('bxrextra:default');
     public $defaultSortField = 'position';
@@ -23,4 +23,4 @@ class BxrExtraGetListProcessor extends modObjectGetListProcessor {
         return $c;
     }
 }
-return 'BxrExtraGetListProcessor';
+return 'BxrExtraItemGetListProcessor';

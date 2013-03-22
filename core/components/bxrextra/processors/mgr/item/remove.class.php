@@ -5,9 +5,9 @@
  * @package bxrextra
  * @subpackage processors
  */
-class BxrExtraRemoveProcessor extends modObjectRemoveProcessor {
+class BxrExtraItemRemoveProcessor extends modObjectRemoveProcessor {
     public $classKey = 'BxrExtraItem';
     public $languageTopics = array('bxrextra:default');
     public $objectType = 'bxrextra.items';
 }
-return 'BxrExtraRemoveProcessor';
+return 'BxrExtraItemRemoveProcessor';

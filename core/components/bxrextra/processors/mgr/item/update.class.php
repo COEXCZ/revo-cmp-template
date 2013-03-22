@@ -6,7 +6,7 @@
  * @subpackage processors
  */
 
-class BxrExtraUpdateProcessor extends modObjectUpdateProcessor {
+class BxrExtraItemUpdateProcessor extends modObjectUpdateProcessor {
     public $classKey = 'BxrExtraItem';
     public $languageTopics = array('bxrextra:default');
     public $objectType = 'bxrextra.items';
@@ -24,4 +24,4 @@ class BxrExtraUpdateProcessor extends modObjectUpdateProcessor {
     }
 
 }
-return 'BxrExtraUpdateProcessor';
+return 'BxrExtraItemUpdateProcessor';

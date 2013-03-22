@@ -5,7 +5,7 @@
  * @package bxrextra
  * @subpackage processors
  */
-class BxrExtraCreateProcessor extends modObjectCreateProcessor {
+class BxrExtraItemCreateProcessor extends modObjectCreateProcessor {
     public $classKey = 'BxrExtraItem';
     public $languageTopics = array('bxrextra:default');
     public $objectType = 'bxrextra.items';
@@ -29,4 +29,4 @@ class BxrExtraCreateProcessor extends modObjectCreateProcessor {
         return parent::beforeSave();
     }
 }
-return 'BxrExtraCreateProcessor';
+return 'BxrExtraItemCreateProcessor';
